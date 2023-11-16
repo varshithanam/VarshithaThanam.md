@@ -22,11 +22,19 @@
 
 Null Pointer Dereference:
 
+  A nullptr is a value that doesn't reference to anything on the memory location. This exception is mainly thrown when an application attempts to use null in place of an object when required. Few of th comman scenarios where people run into this error are:
+    - Calling methods on a null object
+    - Accessing a null object’s properties
+    - Accessing an index element of a null object. Ex: like in an array
+    - Passing null parameters to a method
+    - Throwing null from a method that throws an exception
 
 
-
-
-
+Links used for reserch
+  - https://docs.oracle.com/javase/8/docs/api/java/lang/NullPointerException.html
+  - https://rollbar.com/blog/how-to-catch-and-fix-nullpointerexception-in-java/
+  - https://cwe.mitre.org/data/definitions/476.html#Potential_Mitigations
+  - https://medium.com/analytics-vidhya/nullpointerexception-a869bc49b50d 
 
 
 
