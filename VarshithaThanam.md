@@ -5,18 +5,18 @@
 
 
 - CPE Version:
-  - ``2.3``
+  - ``2.3`` : Since this is the latest definition version of the CPE.
 
 - Part:
-  - ``a`` : type of application
+  - ``a`` : This specifies what tupe of entry was made. In this case it's an application. 
 - Vendor:
-  - ``VarshithaThanam`` : my name since I'm the creator of the product.
+  - ``VarshithaThanam`` : This feild specifies the name of the creator or developer.
 - Product:
-  - ``NullPointer`` : The name of the file.
+  - ``NullPointer`` : This tells us the name of the application that is created.
 - Version:
-  - `` 14.0.0`` : This represents the version number.
+  - `` 14.0.0`` : This represents the version number of the application.
 - Rest:
-  - ``*:*:*:*:*:*`` : all the other informations which is not required.
+  - ``*:*:*:*:*:*`` : all the other generic information.
 
 ## CWE
 ```public class NullPointer {
