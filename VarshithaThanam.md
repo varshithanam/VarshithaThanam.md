@@ -58,7 +58,31 @@ Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String
 varshithathanam@varshithas-MacBook-Pro ~ % 
 
 ```
-- There a many ways we can fix this problem. One of the 
+- There a many ways we can fix this problem. One way to fix the above code is using a try catch
+  ```
+  public class NullPointer {
+    public static void main(String[] args) {
+        String n = null;
+
+        try {
+            System.out.println(n.length());
+        } catch (NullPointerException e) {
+            // Handling the exception
+            System.out.println("NullPointerException caught: " + e.getMessage());
+        }
+    }
+}
+```
+Or we can do:
+
+```
+if (n != null) {
+   System.out.println(n.length());
+} else {
+    System.out.println("NullPointerException");
+}
+
+```
 
 
 
