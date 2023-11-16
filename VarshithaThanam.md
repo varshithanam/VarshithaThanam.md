@@ -73,9 +73,8 @@ varshithathanam@varshithas-MacBook-Pro ~ %
     }
 }
 ```
-Or we can do:
 
-
+- Or we can do:
 ```
 if (n != null) {
    System.out.println(n.length());
