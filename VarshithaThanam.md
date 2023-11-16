@@ -71,8 +71,7 @@ varshithathanam@varshithas-MacBook-Pro ~ %
             System.out.println("NullPointerException caught: " + e.getMessage());
         }
     }
-}
-```
+  } ```
 
 - Or we can do:
 
