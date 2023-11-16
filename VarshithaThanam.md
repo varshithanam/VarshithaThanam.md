@@ -1,4 +1,3 @@
-
 # CPE/CWE homework
 
 `` cpe:2.3:a:VarshithaThanam:NullPointer:14.0.0:*:*:*:*:*:* ``
@@ -76,11 +75,11 @@ varshithathanam@varshithas-MacBook-Pro ~ %
 - Or we can do:
 
 ```
-if (n != null) {
-   System.out.println(n.length());
-} else {
-    System.out.println("NullPointerException");
-}
+  if (n != null) {
+     System.out.println(n.length());
+  } else {
+      System.out.println("NullPointerException");
+  }
 
 ```
 
