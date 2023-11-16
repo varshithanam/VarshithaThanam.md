@@ -4,17 +4,18 @@
 `` cpe:2.3:a:VarshithaThanam:NullPointer:14.0.0:*:*:*:*:*:* ``
 
 
-CPE Version:
+- CPE Version:
   - ``2.3``
-Part:
+
+- Part:
   - ``a`` : type of application
-Vendor:
+- Vendor:
   - ``VarshithaThanam`` : my name since I'm the creator of the product.
-Product:
+- Product:
   - ``NullPointer`` : The name of the file.
-Version:
+- Version:
   - `` 14.0.0`` : This represents the version number.
-Rest:
+- Rest:
   - ``*:*:*:*:*:*`` : all the other informations which is not required.
 
 ## CWE
