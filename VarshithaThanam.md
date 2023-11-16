@@ -36,6 +36,9 @@ Links used for reserch
   - https://cwe.mitre.org/data/definitions/476.html#Potential_Mitigations
   - https://medium.com/analytics-vidhya/nullpointerexception-a869bc49b50d 
 
+Personal Experiance:
+  During my initial coding classes I had issues with it since I forgot to check if the method returns null or not and ran into this exception. Also, when the object is intialized to null and whenever I tried to call something on it it gives me this exception. 
+  
 ## CWE
 
 - The code below is one example of how we run into a Null Pointer Error. We run into this error beacuse the string is initialized to null. `String n = null;`. Later we try to access the lenght of the `n`. But the `n` is initiallzed to a `null` which gives us the error.
