@@ -1,7 +1,8 @@
 
 # CPE/CWE homework
 
-`` cpe:2.3:a:VarshithaThanam:NullPointerDereference:*:*:*:*:*:* ``
+`` cpe:2.3:a:VarshithaThanam:NullPointer:14.0.0:*:*:*:*:*:* ``
+
 
 CPE Version:
   - ``2.3``
@@ -10,7 +11,9 @@ Part:
 Vendor:
   - ``VarshithaThanam`` : my name since I'm the creator of the product.
 Product:
-  - ``NullPointerDereference`` : The name of the file.
+  - ``NullPointer`` : The name of the file.
+Version:
+  - `` 14.0.0`` : This represents the version number.
 Rest:
   - ``*:*:*:*:*:*`` : all the other informations which is not required.
 
