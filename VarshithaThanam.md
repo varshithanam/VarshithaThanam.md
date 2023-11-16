@@ -18,7 +18,7 @@
 - Rest:
   - ``*:*:*:*:*:*`` : all the other generic information.
 
-## CWE
+## CVE
 
 Null Pointer Dereference:
 
@@ -36,7 +36,9 @@ Links used for reserch
   - https://cwe.mitre.org/data/definitions/476.html#Potential_Mitigations
   - https://medium.com/analytics-vidhya/nullpointerexception-a869bc49b50d 
 
+## CWE
 
+- The code below is one example of how we run into a Null Pointer Error. We run into this error beacuse the string is initialized to null. `String n = null;`. Later we try to access the lenght of the `n`. But the `n` is initiallzed to a `null` which gives us the error.
 
 ```public class NullPointer {
     public static void main(String[] args) {
@@ -46,9 +48,9 @@ Links used for reserch
     }
 }
 
-
 ```
-- Exception 
+
+- Exception : This is the erroe we are likely to get when we run the above code. 
 
 ```
 Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "n" is null
@@ -56,6 +58,7 @@ Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String
 varshithathanam@varshithas-MacBook-Pro ~ % 
 
 ```
+- There a many ways we can fix this problem. One of the 
 
 
 
