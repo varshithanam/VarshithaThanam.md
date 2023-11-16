@@ -19,6 +19,17 @@
   - ``*:*:*:*:*:*`` : all the other generic information.
 
 ## CWE
+
+Null Pointer Dereference:
+
+
+
+
+
+
+
+
+
 ```public class NullPointer {
     public static void main(String[] args) {
         String n = null;
@@ -26,6 +37,7 @@
 
     }
 }
+
 
 ```
 - Exception 
