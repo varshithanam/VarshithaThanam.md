@@ -15,9 +15,9 @@ Rest:
   - ``*:*:*:*:*:*`` : all the other informations which is not required.
 
 ## CWE
-```public class Main {
+```public class NullPointer {
     public static void main(String[] args) {
-        String n = Null;
+        String n = null;
         System.out.println(n.length());
 
     }
@@ -27,12 +27,9 @@ Rest:
 - Exception 
 
 ```
- Main 
-Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
-        Null cannot be resolved to a variable
-
-        at Main.main(NullPointer.java:3)
-varshithathanam@varshithas-MacBook-Pro ~ %
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "n" is null
+        at NullPointer.main(NullPointer.java:4)
+varshithathanam@varshithas-MacBook-Pro ~ % 
 
 ```
 
