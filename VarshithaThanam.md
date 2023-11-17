@@ -21,8 +21,8 @@
 
 Null Pointer Dereference:
 
-  A nullptr is a value that doesn't reference to anything on the memory location. This exception is mainly thrown when an application attempts to use null in place of an object when required. Few of th comman scenarios where people run into this error are 
-  `
+  A nullptr is a value that doesn't reference to anything on the memory location. This exception is mainly thrown when an application attempts to use null in place of an object when required. Few of th comman scenarios where people run into this error are:
+  
     - Calling methods on a null object
     - Accessing a null object’s properties
     - Accessing an index element of a null object. Ex: like in an array
@@ -47,24 +47,24 @@ Personal Experiance:
 
 - The code below is one example of how we run into a Null Pointer Error. We run into this error beacuse the string is initialized to null. `String n = null;`. Later we try to access the lenght of the `n`. But the `n` is initiallzed to a `null` which gives us the error.
 
-```public class NullPointer {
-    public static void main(String[] args) {
-        String n = null;
-        System.out.println(n.length());
+  ```public class NullPointer {
+      public static void main(String[] args) {
+          String n = null;
+          System.out.println(n.length());
 
+      }
     }
-}
 
-```
+  ```
 
 - Exception : This is the erroe we are likely to get when we run the above code. 
+  
+  ```
+  Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "n" is null
+          at NullPointer.main(NullPointer.java:4)
+  varshithathanam@varshithas-MacBook-Pro ~ % 
 
-```
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "n" is null
-        at NullPointer.main(NullPointer.java:4)
-varshithathanam@varshithas-MacBook-Pro ~ % 
-
-```
+  ```
 - There a many ways we can fix this problem. One way to fix the above code is using a try catch
   ```
   public class NullPointer {
@@ -82,14 +82,14 @@ varshithathanam@varshithas-MacBook-Pro ~ %
 
 - Or we can do:
 
-```
-  if (n != null) {
-     System.out.println(n.length());
-  } else {
-      System.out.println("NullPointerException");
-  }
+  ```
+    if (n != null) {
+       System.out.println(n.length());
+    } else {
+        System.out.println("NullPointerException");
+    }
 
-```
+  ```
 
 
 
