@@ -57,7 +57,7 @@ Personal Experiance:
 
   ```
 
-- Exception : This is the erroe we are likely to get when we run the above code. 
+- Exception : This is the error we are likely to get, when we run the above code. 
   
   ```
   Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "n" is null
@@ -65,7 +65,7 @@ Personal Experiance:
   varshithathanam@varshithas-MacBook-Pro ~ % 
 
   ```
-- There a many ways we can fix this problem. One way to fix the above code is using a try catch
+- There a many ways we can fix this problem. One way to fix the above code is using a try catch.
   ```
   public class NullPointer {
     public static void main(String[] args) {
