@@ -1,4 +1,4 @@
-#TASK 1 
+#TASK 0 
 
   - I used the SSH command provided in the discord. `ssh -p 2223 leviathan0@leviathan.labs.overthewire.org`
   - Later it after saying yes it prompted for a password and the password was mentioned in the leviathan site. `leviathan0`
@@ -10,9 +10,9 @@
   - The password is `PPIfmI1qsA`
   - `exit
 
-#TASK 2
+#TASK 1
   - ssh into the level 1 using `ssh -p 2223 leviathan1@leviathan.labs.overthewire.org`
-  - `ls` and file was found `check`
+  - `ls -lah` and setuid file was found `check`
   - tried cat check but it was all encrypted
   - Tried `ls -lah` : `-r-sr-x---  1 leviathan2 leviathan1  15K Oct  5 06:19 check`
   - Used `ltrace` command which helps in debbuging. It propmted for password.
@@ -33,12 +33,38 @@ strcmp("\n\n\n", "sex")
   - To verify `./check`
   - typed in `sex` and it's right.
   - `ls` check file was found and it's encrypted.
+  - Tried `sex` as the password for next task but it's not the passsword
   - In the main page of leviathan it says use `/etc/leviathan_pass/`
   - `cat /etc/leviathan_pass/leviathan2
-  - password : 
+  - password : `mEh5PNl10e`
   - `exit`
 
-#TASK 3
+#TASK 2 (very hard)
+  - `ssh -p 2223 leviathan2@leviathan.labs.overthewire.org`
+  - `ls -lah` to see the file found another setuid file `printfile`
+  - `ltrace ./printfile` to see if it has anything. It outputted
+```
+leviathan2@gibson:~$ ltrace ./printfile 
+__libc_start_main(0x80491e6, 1, 0xffffd5f4, 0 <unfinished ...>
+puts("*** File Printer ***"*** File Printer ***
+)                                             = 21
+printf("Usage: %s filename\n", "./printfile"Usage: ./printfile filename
+)                            = 28
++++ exited (status 255) +++
+```
+  -  Googled alot found `ltrace ./printfile /etc/passwd`
+```
+leviathan2@gibson:~$ ltrace ./printfile /etc/passwd
+__libc_start_main(0x80491e6, 2, 0xffffd5e4, 0 <unfinished ...>
+access("/etc/passwd", 4)                                                 = 0
+snprintf("/bin/cat /etc/passwd", 511, "/bin/cat %s", "/etc/passwd")      = 20
+geteuid()                                                                = 12002
+geteuid()                                                                = 12002
+setreuid(12002, 12002)
+```
+  -  So created a temporary directory `mktemp -d`. Directory : `/tmp/tmp.AluKCOAkB4`
+  -  `cd /tmp/tmp.AluKCOAkB4` : Enter the directory
+  -  
 
 
 
