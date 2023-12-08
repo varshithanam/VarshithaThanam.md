@@ -12,4 +12,29 @@
 
 #TASK 2
   - ssh into the level 1 using `ssh -p 2223 leviathan1@leviathan.labs.overthewire.org`
-  - 
+  - `ls` and file was found `check`
+  - tried cat check but it was all encrypted
+  - Tried `ls -lah` : `-r-sr-x---  1 leviathan2 leviathan1  15K Oct  5 06:19 check`
+  - Used `ltrace` command which helps in debbuging. It propmted for password.
+  - I pressed enter thrice in a row and it later outputed leviathan1@gibson:~$ ltrace ./check
+```
+__libc_start_main(0x80491e6, 1, 0xffffd5f4, 0 <unfinished ...>
+          printf("password: ")                                                     = 10
+getchar(0xf7fbe4a0, 0xf7fd6f90, 0x786573, 0x646f67password: 
+)                      = 10
+getchar(0xf7fbe4a0, 0xf7fd6f0a, 0x786573, 0x646f67
+)                      = 10
+getchar(0xf7fbe4a0, 0xf7fd0a0a, 0x786573, 0x646f67
+)                      = 10
+strcmp("\n\n\n", "sex")
+```
+  - Then `man strcmp` found out that it compares tw strings
+  - So, the command was comparing the password I typed to the main password `sex`
+  - `exit`
+
+#TASK 3
+
+
+
+  
+
