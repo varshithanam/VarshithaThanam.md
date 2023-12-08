@@ -8,4 +8,8 @@
   - Used `cat` to view the contents of the file. It was too big. I couldn't find a password.
   - After some google search I found we could use `grep`. `grep password bookmarks.html`
   - The password is `PPIfmI1qsA`
+  - `exit
+
+#TASK 2
+  - ssh into the level 1 using `ssh -p 2223 leviathan1@leviathan.labs.overthewire.org`
   - 
