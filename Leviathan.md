@@ -76,6 +76,21 @@ leviathan3@gibson:~$
   -  `cat /etc/leviathan_pass/leviathan3`
   -  Password: `Q0G8j4sakn`
 
+#TASK 3
+ - `ssh -p 2223 leviathan3@leviathan.labs.overthewire.org`
+ - `ls` : level13
+ - `ltrace ./lever13` like we did for task 1
+ - we can see the password `strcmp("snlprintf\\n\n", "snlprintf\n")` similar to task 1 but we also get `strcmp("h0no33", "kakaka") `
+ - Tried both and got in with `snlprintf`
+ - `cat /etc/leviathan_pass/leviathan4`
+ - Password : `AgvropI4OA`
+ - `exit`
+
+#TASK 4 
+ - 
+   
+ 
+
 
 
   
