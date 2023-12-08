@@ -78,8 +78,8 @@ leviathan3@gibson:~$
 
 #TASK 3
  - `ssh -p 2223 leviathan3@leviathan.labs.overthewire.org`
- - `ls` : level13
- - `ltrace ./lever13` like we did for task 1
+ - `ls` : level3
+ - `ltrace ./level3` like we did for task 1
  - we can see the password `strcmp("snlprintf\\n\n", "snlprintf\n")` similar to task 1 but we also get `strcmp("h0no33", "kakaka") `
  - Tried both and got in with `snlprintf`
  - `cat /etc/leviathan_pass/leviathan4`
@@ -87,7 +87,30 @@ leviathan3@gibson:~$
  - `exit`
 
 #TASK 4 
- - 
+ - `ssh -p 2223 leviathan4@leviathan.labs.overthewire.org`
+ - `ls -lah` since the file is hidden
+ - `bin` setuid file is found
+ - `./bin` and `01000101 01001011 01001011 01101100 01010100 01000110 00110001 01011000 01110001 01110011 00001010` gives binary output.
+ - Put this into a binary to ascii converter for the password.
+ - Password: `EKKlTF1Xqs`
+ - `exit`
+ - `ssh -p 2223 leviathan5@leviathan.labs.overthewire.org`
+
+```
+leviathan5@gibson:~$ whoami
+leviathan5
+leviathan5@gibson:~$
+```
+
+
+
+
+Links used for research:
+ - https://www.cbtnuggets.com/blog/technology/system-admin/linux-file-permissions-understanding-setuid-setgid-and-the-sticky-bit
+ - https://www.rapidtables.com/convert/number/binary-to-decimal.html
+ - https://man7.org/linux/man-pages/man1/ltrace.1.html
+ - https://www.linode.com/docs/guides/using-mktemp-command/
+ - https://programmercave.com/blog/2020/01/06/Leviathan-Level-2-3-Basic-Exploitation-Techniques
    
  
 
