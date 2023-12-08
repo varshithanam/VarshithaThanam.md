@@ -30,6 +30,12 @@ strcmp("\n\n\n", "sex")
 ```
   - Then `man strcmp` found out that it compares tw strings
   - So, the command was comparing the password I typed to the main password `sex`
+  - To verify `./check`
+  - typed in `sex` and it's right.
+  - `ls` check file was found and it's encrypted.
+  - In the main page of leviathan it says use `/etc/leviathan_pass/`
+  - `cat /etc/leviathan_pass/leviathan2
+  - password : 
   - `exit`
 
 #TASK 3
