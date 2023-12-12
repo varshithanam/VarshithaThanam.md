@@ -1,30 +1,25 @@
 ## interview 1
-* Passwords / 2FA / MFA
+**Passwords / 2FA / MFA**
 * How many unique passwords do you have?
-     - How would you rate the strength of your passwords? (1-10 where 1-weak, 10-strong)
-     - What is 2-Factor / Multi-Factor Authentication and where (what accounts) should you use it?
-     - Do you know how to recover access if you lose your 2FA device?
-  - Social Engineering
-    - Have you ever clicked on a link in an email / website that misbehaved?
-    - Have you ever used an open random wifi just because it was unsecured / faster?
+     *      
+* How would you rate the strength of your passwords? (1-10 where 1-weak, 10-strong)
+     * 
+* What is 2-Factor / Multi-Factor Authentication and where (what accounts) should you use it?
+     * 
+* Do you know how to recover access if you lose your 2FA device?
+     * 
+  
+**Social Engineering**
+* Have you ever clicked on a link in an email / website that misbehaved?
+* Have you ever used an open random wifi just because it was unsecured / faster?
+* Walk through the following quiz with them: https://www.sonicwall.com/phishing-iq-test/
+  
+**Recovery**
 
-
-
-
-
-
-
-
-
-
-
-
-
-Walk through the following quiz with them: https://www.sonicwall.com/phishing-iq-test/
-Recovery
-What would you do if you were hacked?
-Do you have a backup of your important files?
-Who you gonna call?
+* What would you do if you were hacked?
+* Do you have a backup of your important files?
+* Who you gonna call?
+  
 For each interview please provide a report style write-up about key discussion points AND addressing the following (please assume I want an explanation to all of the following as to why you answered in the way you did):
 
 Start by stating the interviewee's name, relation to you, and date / place of the interview.
