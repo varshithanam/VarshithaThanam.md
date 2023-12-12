@@ -85,16 +85,18 @@ Start by stating the interviewee's name, relation to you, and date / place of th
 
 **Passwords / 2FA / MFA**
 * What is their overall authentication awareness / strength
-      * I think a good 6/10. she is aware of the authentication process but doesn’t entirely use them on all accounts. 
+      * I think a good 6/10. She is aware of the authentication process but doesn’t entirely use them on all accounts. 
 * What are your opinions on adding this individual into your Corporation from lab 6?
-      * I will, she knows who to conatact for help and is open learn better practices. 
+      * I will, she knows who to conatact for help and is open learn better practices. She also made a good point on contacting the linked accounts if ever she gets hacked. 
   
 **Social engineering**
 * Compared to an average person, how would you rate the behavior patterns of this individual? (1-10 scale, where 1 is this person is the Evel Knievel of cyber threats, and 10 is this person is the cyber equivalent of Fort Knox)
       * A good 6.89/10. Is well aware of what links not click form that one event and is more conscious of it moving forward. 
 * Do you think your discussion assisted this individual in mitigating some of their riskier behaviors? OR Did this individual teach you anything about cyber security?
-      * I informed her about what 
+      * I informed her about what are her other backup options and how to create a stronger password. 
   
 **Recovery**
 * Rate this individual's Cyber preparedness (1-10, where 1 doesn't know the word cyber, and 10 is they have an IKEA cyber manual)
+      * She is a good 6/10. She is well aware but dosen't have 2-Factor or multi factor on some impotant and account and has all the backups on her phone. 
 * Who are they going to call?
+      * They are going to call the police and family. 
