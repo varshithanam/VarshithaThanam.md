@@ -1,7 +1,6 @@
-Interview questions (please take notes for each interview!).  Do not just ask and write down an answer, please try to help assess and educate in a polite way.
-
-  - Passwords / 2FA / MFA
-     - How many unique passwords do you have?
+## interview 1
+* Passwords / 2FA / MFA
+* How many unique passwords do you have?
      - How would you rate the strength of your passwords? (1-10 where 1-weak, 10-strong)
      - What is 2-Factor / Multi-Factor Authentication and where (what accounts) should you use it?
      - Do you know how to recover access if you lose your 2FA device?
