@@ -23,23 +23,30 @@
 * What would you do if you were hacked?
       * He said 'PANIC' but also call call the police and try blocking the it if it's linked to other accounts. 
 * Do you have a backup of your important files?
-      * He does have 
+      * He said he has three backups. 
 * Who you gonna call?
+      * He will be calling police and credit card people. 
   
 
 Start by stating the interviewee's name, relation to you, and date / place of the interview.
 
 **Passwords / 2FA / MFA**
 * What is their overall authentication awareness / strength
+      * His authenticationa awareness is a good 7. He is well aware of all the basic how to keep his accounts safe and has some good protections sites and backups. 
 * What are your opinions on adding this individual into your Corporation from lab 6?
+      * I wiil,  because he is well aware about all malicious activities that could take pace and how to recover back if not whome to approach in case of panic. 
   
 **Social engineering**
 * Compared to an average person, how would you rate the behavior patterns of this individual? (1-10 scale, where 1 is this person is the Evel Knievel of cyber threats, and 10 is this person is the cyber equivalent of Fort Knox)
+      * A good 8/10. Even though he a malicious link once, he is well aware of what not to do from that and has very good backups.
 * Do you think your discussion assisted this individual in mitigating some of their riskier behaviors? OR Did this individual teach you anything about cyber security?
+      * He told me about the time he got hacked due a link and what measure he took to mitigate the risk growing. One thing I mentioned him was to have physical copies of the passwords and important information.  
   
 **Recovery**
 * Rate this individual's Cyber preparedness (1-10, where 1 doesn't know the word cyber, and 10 is they have an IKEA cyber manual)
+      * I would give him a 8. He appears to be experienced and well has been through the drill once of getting hacked so he is more conscious on what to click and what not to. 
 * Who are they going to call?
+      * They are going to call the police, credit card people and then try to 
 
 ## interview 2
 **Passwords / 2FA / MFA**
